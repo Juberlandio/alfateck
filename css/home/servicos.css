@@ -1,0 +1,40 @@
+.servicos-bg {
+  background: var(--cor-0);
+}
+.texto-servircos {
+  padding: 65px 10px 10px 10px;
+}
+.servicos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 85px;
+  padding-top: 90px;
+  padding-bottom: 40px;
+}
+.servicos img {
+  width: 100px;
+  margin: auto;
+}
+.servicos .servicos-container {
+  text-align: center;
+  padding: 0px 40px;
+  width: 244px;
+}
+.servicos .servicos-container h2 {
+  padding-top: 30px;
+}
+.servicos .servicos-container p {
+  padding-top: 34px;
+}
+@media (max-width: 1000px) {
+  .servicos {
+    gap: 40px;
+  }
+}
+@media (max-width: 650px) {
+  .servicos {
+    gap: 20px;
+  }
+}

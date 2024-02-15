@@ -5,6 +5,7 @@
 /* Home */ 
 @import "./home/header.css";
 @import "./home/introducao.css";
+@import "./home/servicos.css";
 
 /* Precos */
 @import "./precos/header-precos.css";
