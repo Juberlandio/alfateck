@@ -10,27 +10,42 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <script>document.documentElement.className += ' js';</script>
 </head>
 
 <body>
   <header class="cabecalho-precos-bg">
     <nav class="cabecalho container">
       <div class="container-logo">
-        <div><a href="#inicio"><img src="media/img/logo-icone-escuro.png" alt=""></a></div>
+        <div><a href="index.html"><img src="media/img/logo-icone-escuro.png" alt=""></a></div>
         <div class="container-texto">
           <h1 class="font-1-xl cor-13">AlfaTech</h1>
           <p class="font-1-s1 cor-0">Soluções em Hospedagem</p>
         </div>
       </div>
-      <ul class="menu font-1-sb cor-0">
+      <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul data-menu="list" class="dropdown-menu font-1-sb cor-0">
+        <li><a href="index.html">Inicio</a></li>
         <li><a href="#informacoes">Informações</a></li>
         <li><a href="#planos">Planos</a></li>
-        <li><a href="#precos">Preços</a></li>
+        <li><a href="precos.html">Preços</a></li>
         <li><a href="#contato">Contato</a></li>
       </ul>
-    </nav>
-  </header>
+  </nav>
+</header>
+<section class="introducao-bg">
+  <div class="introducao">
+  <div>
+    <p>Simples - Fácil de usar - 10x mais rápido</p>
+    <h1>O melhor serviço de hospedagem na web para o seu site.</h1>
+    <p>Obtenha a melhor velocidade para o seu site. Não perca mais clientes por causa de lentidão na sua hospedagem.</p>
+  </div>
+  <div>
+    <img src="media/img/imagem-banner.png" alt="">
+  </div>
+</div>
+</section>
+  <script type="module" src="js/script.js"></script>
 </body>
-<script src="js/script.js"></script>
 
 </html>

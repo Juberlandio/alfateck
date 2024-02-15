@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <script>document.documentElement.className += ' js';</script>
 </head>
 
 <body>
@@ -22,15 +23,17 @@
           <p class="font-1-s1 cor-p1">Soluções em Hospedagem</p>
         </div>
       </div>
-      <ul class="menu font-1-sb cor-11">
+      <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul data-menu="list" class="dropdown-menu font-1-sb cor-11">
+        <li><a href="index.html">Inicio</a></li>
         <li><a href="#informacoes">Informações</a></li>
         <li><a href="#planos">Planos</a></li>
-        <li><a href="#precos">Preços</a></li>
+        <li><a href="precos.html">Preços</a></li>
         <li><a href="#contato">Contato</a></li>
       </ul>
-    </nav>
-  </header>
+  </nav>
+</header>
+  <script type="module" src="js/script.js"></script>
 </body>
-<script src="js/script.js"></script>
 
 </html>

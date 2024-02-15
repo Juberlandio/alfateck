@@ -1,8 +1,10 @@
 /* Global */
 @import "./global/global.css";
+@import "./global/menu-mobile.css";
 
 /* Home */ 
 @import "./home/header.css";
+@import "./home/introducao.css";
 
 /* Precos */
 @import "./precos/header-precos.css";

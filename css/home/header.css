@@ -6,7 +6,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  height: auto;
+  height: 130px;
 }
 .cabecalho .container-logo {
   display: flex;
@@ -25,22 +25,19 @@
 .cabecalho .container-logo img{
   max-width: 75px;
 }
-.cabecalho .menu {
+.cabecalho ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
 }
-.cabecalho .menu li{
+.cabecalho ul li{
   padding: 20px 10px;
 }
 @media (max-width: 850px) {
-  .cabecalho .menu {
-    font: 500 0.8rem/0.83 "Poppins", sans-serif;
-  }
   .cabecalho .container-logo{
-    margin: 0 auto;
+    display: none;
   }
   .cabecalho .container-logo .container-texto h1{
     font: 700 1.7rem/0.83 "Poppins", sans-serif;
@@ -49,10 +46,11 @@
     font: 500 0.6rem/0.83 "Poppins", sans-serif;
     white-space: nowrap;
   }
-  .cabecalho .menu {
+  .cabecalho ul {
     margin: 0 auto;
+    color: var(--cor-0);
   }
-  .cabecalho .menu li{
-    padding: 10px 5px;
+  .cabecalho ul li{
+    padding: 20px;
   }
 }
