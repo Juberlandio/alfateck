@@ -7,9 +7,11 @@
 @import "./home/introducao.css";
 @import "./home/servicos.css";
 @import "./home/planos.css";
+@import "./home/footer.css";
 
 /* Precos */
 @import "./precos/header-precos.css";
+@import "./precos/footer-precos.css";
 
 /* Utilidades */
 @import "./utilidades/componentes.css";

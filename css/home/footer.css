@@ -1,0 +1,33 @@
+.footer .container-logo {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 73px 0px 60px 0px;
+}
+.footer .container-logo .container-texto{
+  padding-left: 10px;
+}
+.footer .container-logo .container-texto h1{
+  padding-bottom: 13px;
+  white-space: nowrap;
+}
+.footer .container-logo img{
+  max-width: 75px;
+}
+.footer .footer-texto p + p{
+  padding-top: 20px;
+}
+.footer .footer-texto p:last-child{
+  padding-bottom: 20px;
+}
+.final-bg {
+  background: #F1F3F7;
+}
+.final {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+}

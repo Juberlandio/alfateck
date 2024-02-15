@@ -1,0 +1,7 @@
+.footer-bg-precos {
+  background: var(--cor-p1);
+}
+.footer .footer-texto-precos p {
+  padding: 5px 0px 65px 0px;
+  box-sizing: border-box;
+}

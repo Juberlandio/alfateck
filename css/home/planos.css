@@ -9,12 +9,19 @@ text-align: center;
 padding-top: 63px;
 padding-bottom: 74px;
 }
+.planos{
+overflow-x: auto;
+-webkit-overflow-scrolling: touch; 
+-ms-overflow-style: -ms-autohiding-scrollbar;
+padding: 30px;
+}
 .planos table {
 width: 1200px;
 border-collapse: collapse;
 border: 2px solid var(--cor-4);
 border-radius: 10px;
-box-shadow: 0 0 30px 10px rgb( 47, 134, 214, 20%);
+box-shadow: 0 0 30px 10px rgb(47, 134, 214, 20%);
+
 }
 .planos table thead tr th {
 padding-top: 25px;
