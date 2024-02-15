@@ -1,0 +1,20 @@
+.planos-bg {
+  background: #F1F3F7;
+}
+.texto-planos h2 {
+  text-align: center;
+  padding-top: 63px;
+  padding-bottom: 74px;
+}
+.planos table {
+  width: 1200px;
+}
+.planos tbody td {
+  height: 69px;
+  text-align: center;
+} 
+.planos tbody img {
+  width: 100px;
+  height: 100px;
+  
+}
