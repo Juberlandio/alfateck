@@ -39,6 +39,7 @@ max-width: 504px;
   display: inline-block;
   transition: 0.3s;
   text-align: center;
+  cursor: pointer;
 }
 .btn a{
   display: flex;
