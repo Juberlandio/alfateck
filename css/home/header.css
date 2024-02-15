@@ -13,7 +13,7 @@
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  padding: 27.50px;
+  padding: 27.50px 0px;
 }
 .cabecalho .container-logo .container-texto{
   padding-left: 10px;
@@ -35,7 +35,7 @@
 .cabecalho ul li{
   padding: 20px 10px;
 }
-@media (max-width: 850px) {
+@media (max-width: 900px) {
   .cabecalho .container-logo{
     display: none;
   }
