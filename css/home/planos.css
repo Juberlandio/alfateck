@@ -1,20 +1,65 @@
 .planos-bg {
-  background: #F1F3F7;
+background: #F1F3F7;
+}
+.planos {
+padding-bottom: 47px;
 }
 .texto-planos h2 {
-  text-align: center;
-  padding-top: 63px;
-  padding-bottom: 74px;
+text-align: center;
+padding-top: 63px;
+padding-bottom: 74px;
 }
 .planos table {
-  width: 1200px;
+width: 1200px;
+border-collapse: collapse;
+border: 2px solid var(--cor-4);
+border-radius: 10px;
+box-shadow: 0 0 30px 10px rgb( 47, 134, 214, 20%);
 }
-.planos tbody td {
-  height: 69px;
-  text-align: center;
+.planos table thead tr th {
+padding-top: 25px;
+padding-bottom: 50px;
+text-transform: uppercase;
+}
+.planos table tbody tr td {
+width: 300px;
+height: 69px;
+text-align: center;
 } 
 .planos tbody img {
-  width: 100px;
-  height: 100px;
-  
+width: 100px;
+height: 100px;
+}
+.planos table tbody .td:nth-child(odd) {
+background: var(--cor-3);
+} 
+.planos table tr td + td, th + th {
+border-left: 2px solid var(--cor-4);
+}
+
+/* Call Action */
+.btn-tabela-bg-1 {
+background: var(--cor-p1);
+}
+.btn-1 {
+background: var(--cor-s1);
+border-radius: 5px;
+height: 50px;
+width: 200px;
+display: inline-block;
+transition: 0.3s;
+text-align: center;
+cursor: pointer;
+}
+.btn-1 a{
+display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+text-transform: uppercase;
+width: 200px;
+height: 50px;
+}
+.btn-1 img{
+padding-right: 12px;
 }
