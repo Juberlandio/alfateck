@@ -5,8 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AlfaTech</title>
-  <link rel="stylesheet" href="css/style.css">
-
+  <meta name="description" content="Desenvolvedor Front End e UX/UI Designer">
+  <link rel="icon" href="./media/svg/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="./css/style.min.css" as="style">
+  <link rel="stylesheet" href="css/style.min.css">
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
@@ -15,7 +18,7 @@
 
 <body>
   <header class="cabecalho-precos-bg">
-    <nav class="cabecalho container">
+    <nav class="cabecalho container" data-menu="suave">
       <div class="container-logo">
         <div><a href="index.html"><img src="media/img/logo-icone-escuro.png" alt=""></a></div>
         <div class="container-texto">
@@ -26,7 +29,7 @@
       <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
       <ul data-menu="list" class="dropdown-menu font-1-sb cor-0">
         <li><a href="index.html">Inicio</a></li>
-        <li><a href="#informacoes">Informações</a></li>
+        <li><a href="index.html#informacoes">Informações</a></li>
         <li><a href="#planos">Planos</a></li>
         <li><a href="precos.html">Preços</a></li>
         <li><a href="#contato">Contato</a></li>
@@ -166,7 +169,7 @@
   </table>
 </main>
 
-  <footer class="footer-bg-precos">
+  <footer class="footer-bg-precos" id="contato">
     <div class="footer container">
       <div class="container-logo">
         <div><a href="#inicio"><img src="media/img/logo-icone-escuro.png" alt=""></a></div>
