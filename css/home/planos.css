@@ -21,7 +21,6 @@ border-collapse: collapse;
 border: 2px solid var(--cor-4);
 border-radius: 10px;
 box-shadow: 0 0 30px 10px rgb(47, 134, 214, 20%);
-
 }
 .planos table thead tr th {
 padding-top: 25px;
@@ -39,11 +38,13 @@ height: 100px;
 }
 .planos table tbody .td:nth-child(odd) {
 background: var(--cor-3);
-} 
-.planos table tr td + td, th + th {
+}
+.planos table tr td + td {
 border-left: 2px solid var(--cor-4);
 }
-
+.planos table tr th + th {
+border-left: 2px solid var(--cor-4);
+}
 /* Call Action */
 .btn-tabela-bg-1 {
 background: var(--cor-p1);

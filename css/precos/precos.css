@@ -1,0 +1,52 @@
+.tabela-precos {
+padding: 108px 10px 100px 10px;
+overflow-x: auto;
+-webkit-overflow-scrolling: touch;
+-ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.tabela-precos table {
+text-align: center;
+border-collapse: collapse;
+}
+.tabela-precos table thead tr th {
+width: 835px;
+height: 117px;
+text-transform: uppercase;
+padding: 10px 40px;
+}
+.tabela-precos table thead tr th:nth-child(n+2):nth-child(-n+5){
+background: var(--cor-3);
+}
+.tabela-precos table thead tr th:nth-child(n+2):nth-child(-n+4){
+border-right: 2px solid var(--cor-0);
+}
+.tabela-precos table tbody tr td + td:nth-child(n+2):nth-child(-n+5){
+border-right: 2px solid var(--cor-3);
+border-bottom: 2px solid var(--cor-3);
+}
+.tabela-precos table thead tr th p{
+padding-bottom: 10px;
+}
+.tabela-precos table tbody tr td {
+width: 835px;
+height: 66px;
+text-transform: uppercase;
+padding: 0px;
+}
+.tabela-precos table tbody tr td:first-child {
+background: var(--cor-3);
+border-bottom: 2px solid var(--cor-0);
+width: 1325px;
+text-align: left;
+padding: 0px 30px 0px 30px;
+}
+.tabela-precos table tbody tr #left{
+border-bottom: 2px solid var(--cor-3);
+}
+.tabela-precos .bolinha {
+display: block;
+width: 22px;
+height: 22px;
+background: var(--cor-p1);
+border-radius: 50%;
+}

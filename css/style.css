@@ -11,9 +11,10 @@
 
 /* Precos */
 @import "./precos/header-precos.css";
+@import "./precos/precos.css";
 @import "./precos/footer-precos.css";
 
 /* Utilidades */
 @import "./utilidades/componentes.css";
 @import "./utilidades/tipografia.css";
-@import "./utilidades/cores.css";
+@import "./utilidades/cores.css"; 
