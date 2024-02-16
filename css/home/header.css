@@ -36,7 +36,7 @@
   padding: 20px 10px;
 }
 @media (max-width: 900px) {
-  .cabecalho .container-logo{
+  .cabecalho .container-texto{
     display: none;
   }
   .cabecalho .container-logo .container-texto h1{
