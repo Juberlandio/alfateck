@@ -1,9 +1,6 @@
 .planos-bg {
 background: #F1F3F7;
 }
-.planos {
-padding-bottom: 47px;
-}
 .texto-planos h2 {
 text-align: center;
 padding-top: 63px;
@@ -13,7 +10,7 @@ padding-bottom: 74px;
 overflow-x: auto;
 -webkit-overflow-scrolling: touch; 
 -ms-overflow-style: -ms-autohiding-scrollbar;
-padding: 30px;
+padding: 30px 30px 5px 30px;
 }
 .planos table {
 width: 1200px;
@@ -48,6 +45,7 @@ border-left: 2px solid var(--cor-4);
 /* Call Action */
 .btn-tabela-bg-1 {
 background: var(--cor-p1);
+margin-top: 25px;
 }
 .btn-1 {
 background: var(--cor-s1);
