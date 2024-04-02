@@ -3,8 +3,7 @@ background: #F1F3F7;
 }
 .texto-planos h2 {
 text-align: center;
-padding-top: 63px;
-padding-bottom: 74px;
+padding: 63px 20px 74px 20px;
 }
 .planos{
 overflow-x: auto;
