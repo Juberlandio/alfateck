@@ -5,4 +5,5 @@
 .footer .footer-texto-precos p {
   padding: 5px 0px 65px 0px;
   box-sizing: border-box;
+  line-height: 1;
 }
