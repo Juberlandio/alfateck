@@ -16,12 +16,6 @@ font: 500 1.125rem/0.83 "Poppins", sans-serif;
 .font-1-sf {
 font: 700 1.125rem/0.86 "Poppins", sans-serif;
 }
-.font-1-h1 {
-font: 500 1rem/2.5 "Poppins", sans-serif;
-}
-.font-1-sp {
-font: 500 1rem/1.625 "Poppins", sans-serif;
-}
 .font-1-s1 {
 font: 500 1rem/1.2 "Poppins", sans-serif;
 }
@@ -30,9 +24,4 @@ font: 500 0.875rem/0.84 "Poppins", sans-serif;
 }
 .font-1-s {
 font: 500 0.81rem/1.3 "Poppins", sans-serif;
-}
-@media (max-width: 600px) {
-.font-1-h1 {
-font: 500 1rem/1.3 "Poppins", sans-serif;
-}
 }

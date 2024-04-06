@@ -9,6 +9,9 @@ align-items: center;
 height: 569px;
 gap: 160px;
 }
+.introducao p {
+  line-height: 1.625;
+}
 .introducao h1 {
 padding-bottom: 36px;
 padding-top: 48px;

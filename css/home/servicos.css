@@ -27,6 +27,7 @@
 }
 .servicos .servicos-container p {
   padding-top: 34px;
+  line-height: 1.625;
 }
 @media (max-width: 1000px) {
   .servicos {

@@ -15,6 +15,9 @@
 .footer .container-logo img{
   max-width: 75px;
 }
+.footer .footer-texto p{
+  line-height: 2.5;
+}
 .footer .footer-texto p + p{
   padding-top: 20px;
 }
