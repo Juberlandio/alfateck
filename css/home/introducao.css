@@ -6,7 +6,8 @@ display: flex;
 flex-wrap: nowrap;
 justify-content: center;
 align-items: center;
-height: 569px;
+padding-top: 74px;
+padding-bottom: 74px;
 gap: 160px;
 }
 .introducao p {
