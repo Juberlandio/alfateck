@@ -30,8 +30,7 @@ flex-wrap: nowrap;
 justify-content: center;
 align-items: center;
 gap: 80px;
-height: 145px;
-padding: 20px;
+padding: 60px 20px 60px 20px;
 }
 .btn-tabela h2{
 padding-bottom: 20px;
@@ -82,6 +81,7 @@ line-height: 1.2;
 } 
 .btn-tabela p {
 line-height: 1.3;
+font-size: 0.8rem;
 } 
 .btn-tabela ul {
 padding-top: 20px;
