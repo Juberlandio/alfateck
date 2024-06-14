@@ -9,14 +9,14 @@
   padding-left: 10px;
 }
 .footer .container-logo .container-texto h1{
-  padding-bottom: 13px;
   white-space: nowrap;
 }
 .footer .container-logo img{
   max-width: 75px;
 }
-.footer .footer-texto p{
+.footer .container-texto p{
   line-height: 1;
+  font-size: 0.650rem;
 }
 .footer .footer-texto p + p{
   padding-top: 20px;
