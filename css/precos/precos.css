@@ -10,9 +10,8 @@ border-collapse: collapse;
 }
 .tabela-precos table thead tr th {
 width: 835px;
-height: 117px;
 text-transform: uppercase;
-padding: 10px 40px;
+padding: 40px;
 }
 .tabela-precos table thead tr th:nth-child(n+2):nth-child(-n+5){
 background: var(--cor-3);
@@ -25,9 +24,8 @@ padding-bottom: 10px;
 }
 .tabela-precos table tbody tr td {
 width: 835px;
-height: 66px;
+padding: 30px;
 text-transform: uppercase;
-padding: 0px;
 }
 .tabela-precos table tbody tr td + td:nth-child(n+2):nth-child(-n+5){
 border-right: 2px solid var(--cor-3);
@@ -38,7 +36,7 @@ background: var(--cor-3);
 border-bottom: 2px solid var(--cor-0);
 width: 1325px;
 text-align: left;
-padding: 0px 30px 0px 30px;
+padding: 30px;
 }
 .tabela-precos table tbody tr #left{
 border-bottom: 2px solid var(--cor-3);
