@@ -25,7 +25,7 @@ text-transform: uppercase;
 }
 .planos table tbody tr td {
 width: 300px;
-height: 69px;
+padding: 30px;
 text-align: center;
 } 
 .planos tbody img {
